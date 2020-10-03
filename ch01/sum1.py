@@ -10,3 +10,6 @@ def sum(values):
             raise TypeError('elements must be numeric')
         total = total + v
     return total
+
+x=int(input())
+sum(x)
